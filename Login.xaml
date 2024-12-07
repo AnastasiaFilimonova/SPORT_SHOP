@@ -1,0 +1,26 @@
+﻿<Window x:Class="SPORT_SHOP.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPORT_SHOP"
+        mc:Ignorable="d"
+        Title="Login" Height="600" Width="800" MinHeight="600" MinWidth="800">
+    <Grid Height="600" Width="800">
+
+        <DockPanel Background="#76E383" HorizontalAlignment="Center" Width="800" VerticalAlignment="Top">
+            <Image Source ="/images/logo.png" Height="59" Margin="10" DockPanel.Dock="Left" Width="68"/>
+            <TextBlock Text="ООО «Спортивные товары»" FontSize="36" Foreground="White" VerticalAlignment="Center" FontFamily="Comic Sans MS"/>
+        </DockPanel>
+        <Button Content="Войти" Width="250" Height="50" Background="#498C51" Foreground="White" FontFamily="Comic Sans MS" FontSize="20" Margin="301,418,249,132" Click="LoginButton_Click"/>
+        <Button Content="Войти как гость" Width="250" Height="50" Background="#498C51" Foreground="White" FontFamily="Comic Sans MS" FontSize="20" Margin="301,489,249,61"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="269,164,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="268,273,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20"/>
+
+        <TextBox x:Name="PasswordTextBox" VerticalAlignment="Top" TextChanged="TextBox_TextChanged1" Margin="264,318,210,0" Height="30" BorderThickness="0,0,0,1" FontFamily="Comic Sans MS" FontSize="20"></TextBox>
+        <TextBlock x:Name="watermark1" Text="Введите пароль" VerticalAlignment="Top" Foreground="Gray" IsHitTestVisible="False" Margin="266,320,210,0" Height="25" FontFamily="Comic Sans MS" FontSize="20"/>
+        <TextBox x:Name="LoginTextBox" VerticalAlignment="Top" FontSize="20" TextChanged="TextBox_TextChanged" Margin="268,218,206,0" Height="30" BorderThickness="0,0,0,1" FontFamily="Comic Sans MS"></TextBox>
+        <TextBlock x:Name="watermark" Text="Введите логин" VerticalAlignment="Top" Foreground="Gray" IsHitTestVisible="False" Margin="270,220,206,0" Height="25" FontFamily="Comic Sans MS" FontSize="20"/>
+    </Grid>
+
+</Window>
