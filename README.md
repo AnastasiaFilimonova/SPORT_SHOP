@@ -90,6 +90,6 @@
 
 ## Авторы
 
-* **Filimonova Anastasia** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Filimonova Anastasia** - *Initial work* -(https://github.com/AnastasiaFilimonova)
 
 
