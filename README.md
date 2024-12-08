@@ -87,6 +87,6 @@
 
 ## Авторы
 
-* **Filimonova Anastasia** - *Initial work* -(https://github.com/AnastasiaFilimonova)
+* **Filimonova Anastasia**-(https://github.com/AnastasiaFilimonova)
 
 
